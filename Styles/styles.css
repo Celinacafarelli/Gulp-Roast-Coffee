@@ -1,0 +1,129 @@
+/* see the brand guide for colors, fonts, and images in CodePen: 
+https://docs.google.com/document/d/13de5zlWmnox1BbZOiKo1p7tsirkgv0IQLG_bg1R60uE/edit?usp=sharing */
+.logo {
+    width: 200px;
+  }
+  .logo-container {
+    text-align: center;
+  }
+  .nav-container {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+  }
+  nav ul {
+    display: inline-block;
+    margin: 5px;
+    padding: 1rem;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 50px;
+    list-style: none;
+  }
+  nav li:last-child {
+    margin-right: 0
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .page-top {
+    background-color: #082b59;
+    border-bottom: 5px solid #d98555;
+  }
+  .header {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #59331d;
+  }
+  .falling-coffee-beans {
+    width: 100%;
+    height: auto;
+  }
+  .nav.container li a {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+  }
+  .paragraph {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin-bottom: 3px;
+    margin-right: 20px;
+  }
+  .contact-button {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    background-color: #082b59;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  .image-caption {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .footer {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-top: 5px solid #d98555;
+    padding: 1rem;
+    background-color: #59331d;
+    color: #f2f2f2;
+    text-align: center;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .left-content {
+    width: 70%;
+  }
+  .left-box {
+    padding: 10px;
+  }
+  .right-content {
+    width: 30%;
+    border: 4px solid #d98555;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    background-color: #082b59;
+    color: #f2f2f2;
+  }
+  .main-page {
+    display: flex;
+    margin: 20px;
+  }  
+  @media only screen and (max-width: 600px) {
+    .main-page {
+      flex-direction: column;
+    }
+    .right-content {
+      width: 85%;
+    }
+    .left-content {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    .main-page {
+      flex-direction: column;
+    }
+    .right-content {
+      width: 85%;
+    }
+    .left-content {
+      width: 100%;
+    }
+  }
